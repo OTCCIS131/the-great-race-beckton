@@ -22,8 +22,8 @@
 </head>
 
 <body>
-        <div class="container-fluid" id="game" style="padding-left: 1222px;" :style="{opacity: racing ? 0 : 1}" @click="startRace">
-            <img src="./images/crest.png" id="button">
+        <div class="container-fluid" id="game">
+            <img src="./images/crest.png" id="button"  size="100%" style="right: 10vw;" :style="{opacity: racing ? 0 : 1}" @click="startRace">
             <img src="./images/harry.gif" size="150%" id="harry" class="racer" :class="harryClass" :style="harryStyle" class="animated" :class="{bounce: winner, infinite: winner}">
             <img src="./images/snitch.gif" id="snitch" class="racer" :class="snitchClass"  :style="snitchStyle" class="animated" :class="{bounce: winner, infinite: winner}">
         </div>
@@ -34,5 +34,5 @@
                 integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
                 crossorigin="anonymous"></script>
         <script src="https://unpkg.com/vue@2.5.2/dist/vue.js"></script>
-        <script src="./scripts.js"></script>
+        <script src="./scripts.js"></script>     
 </body>
