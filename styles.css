@@ -1,0 +1,45 @@
+body {
+    background-image: url("./images/pitch.jpg");
+    margin: 1.7vw;
+    padding: 1.7vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+#button {
+    width: 10vw;
+    bottom: 70vh;
+    margin-left: 75;
+    padding-left: 330;
+    position: absolute;
+    transition: opacity .5s;
+}
+
+#harry {
+    width: 23vw;
+    bottom: 40vh;
+    margin-left: 1vh;
+}
+
+#snitch {
+    width: 6vw;
+    margin-left: 7vh;  
+    bottom: 10vh;   
+}
+
+.racer {
+    position: absolute;
+    left: 0;
+    transition: left .5s; 
+    bottom: 10vh;
+}
+.winner {
+    bottom: 20vh;
+    left: 40vw !important;
+    width: 30vw !important;
+    transition: bottom .5s, left .5s, width .5s;
+}
